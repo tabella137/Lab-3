@@ -1,0 +1,6 @@
+def open_file():
+  f=open("thomas_abella.txt", "w")
+  f.write("Thomas Abella")
+  
+ if __name__ == "__main__":
+  open_file()
